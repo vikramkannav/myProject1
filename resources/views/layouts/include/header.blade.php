@@ -22,6 +22,9 @@
                     {{ csrf_field() }}
                 </form>
             </div>
+
+
+
         </div>
         <div class="col-xs-12 col-sm-12  hidden-md hidden-lg adv_center">
             <h3>Pet License Application</h3>

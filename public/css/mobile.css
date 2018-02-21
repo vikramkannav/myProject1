@@ -1,0 +1,19 @@
+
+@media (max-width: 800px) {
+
+    .menu_icon{
+        display: block;
+    }
+
+    .left_bar{
+        margin-left: -240px;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+.user_profile_name{
+    display: none !important;
+}
+}
