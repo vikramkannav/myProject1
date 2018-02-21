@@ -15,4 +15,9 @@ class UserController extends Controller
     {
         return view('create_post');
     }
+
+    public function edit()
+    {
+        return view('profile');
+    }
 }

@@ -18,6 +18,6 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::resource('/dashboard', 'PostController');
-Route::resource('create_post', 'PostController');
-Route::resource('/messages', 'MessgaeController');
+Route::resource('dashboard', 'PostController');
+Route::resource('user', 'UserController');
+Route::resource('message', 'MessgaeController');

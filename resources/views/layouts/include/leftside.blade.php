@@ -3,7 +3,7 @@
         <ul class="sidebar-nav nav">
 
             <li class="logo adv_center">
-                <img src="img/logo.png" alt="GoPetie Logo" class="img-responsive gologo">
+                <img src="/img/logo.png" alt="GoPetie Logo" class="img-responsive gologo">
             </li>
             <li class="adv_center">
                 <img src="/img/user.png" class="img-responsive side-bar-img" >
@@ -22,12 +22,16 @@
                 </a>
             </li>
             <li>
-                <a href="/create_post" >
+                <a href="profile" >
+                    <i class="icon-envelope-open icons"></i>Profile Update</a>
+            </li>
+            <li>
+                <a href="dashboard/create" >
                     <i class="icon-envelope-open icons"></i>Create Post</a>
             </li>
             <li>
-                <a href="/create_post" >
-                    <i class="icon-envelope-open icons"></i>Profile Update</a>
+                <a href="message/create" >
+                    <i class="icon-envelope-open icons"></i>Create Message</a>
             </li>
 
             <li>

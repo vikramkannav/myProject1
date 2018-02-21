@@ -24,7 +24,7 @@ class MessgaeController extends Controller
      */
     public function create()
     {
-        return view('message');
+       return view('create_message');
     }
 
     /**
